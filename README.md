@@ -107,16 +107,3 @@ Sử dụng thư viện `pygame.mixer`.
 3. Khi thắng hoặc thua → in thông báo, chờ người chơi restart.
 
 ---
-
-## 10. CẢM NHẬN & HƯỚNG PHÁT TRIỂN
-**Điểm mạnh:**
-- Kiến trúc module rõ ràng, dễ mở rộng.  
-- Spatial system giúp tăng hiệu năng đáng kể.  
-- Renderer và Audio tách riêng giúp dễ thêm hiệu ứng.  
-
-**Điểm có thể cải thiện:**
-- AI có thể được huấn luyện bằng học tăng cường (Reinforcement Learning).  
-- Cần thêm UI hiển thị máu, tiền, số lượt địch.  
-- Có thể thêm nhiều loại địch và tháp với kỹ năng riêng.  
-
-**Trải nghiệm:** Game vận hành ổn định, dễ tùy chỉnh chiến thuật, cho cảm giác “sandbox defense” rất tự nhiên.
