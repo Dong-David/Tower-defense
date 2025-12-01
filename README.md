@@ -75,11 +75,9 @@ python3 main.py
 
 ### **Phần 5: Controls**
 
-```markdown
 ## 🎮 Controls
 
 - **W, A, S, D**: Pan Camera  
 - **1 - 6**: Select Tower Type  
 - **Left Click**: Place Tower  
 - **Space**: Start Round / Restart Game
-```
