@@ -16,6 +16,7 @@ Isometric Tower Defense is a strategic simulation game built entirely in Python 
 
 ## 📁 Directory Structure
 
+```text
 Isometric_Tower_Defense/
 │
 ├── main.py
@@ -52,6 +53,7 @@ Isometric_Tower_Defense/
     ├── Zombie/: Animation frames for enemies.
     ├── Soldier/: Animation frames for defenders.
     └── shield_dome_iso.png: Texture for shield effects.
+```
 
 ---
 
@@ -81,3 +83,22 @@ python3 main.py
 - **1 - 6**: Select Tower Type  
 - **Left Click**: Place Tower  
 - **Space**: Start Round / Restart Game
+
+---
+
+## 🤖 Game Logic & AI
+
+- **Spatial Grid Optimization**: Instead of checking every entity against every other entity, the game only checks objects within specific grid cells defined in Spatial.py.
+- **Targeting System**: Defined in AIManager.py, towers automatically select the nearest or most dangerous targets while respecting attack cooldowns.
+- **State Machines**:
+  - **Zombies**: Transition between Run -> Attack -> Death.
+  - **Soldiers**: Handle rotation smoothing (Lerp) towards targets before firing.
+
+---
+
+## 🧩 Future Development
+
+- Implement A* Pathfinding for complex maze building.  
+- Add resource management system (Gold/Energy).  
+- Create a map editor for custom levels.  
+- Add particle effects for explosions and projectiles.
